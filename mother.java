@@ -1,7 +1,8 @@
 import java.io.*;
+import jva.io.util.*;
 
 class Main {
-	public static void main(String... args) throws IOException {
+	public static void main(String args[]) throws IOException {
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader in = new BufferedReader(isr);
 		String line;
